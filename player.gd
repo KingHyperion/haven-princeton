@@ -22,7 +22,7 @@ func _physics_process(delta: float) -> void:
 		velocity.y += gravity * delta
 
 	# 2. Track Jump Input Buffer
-	if Input.is_action_just_pressed("jump"):
+	if Input.is_key_pressed(KEY_SPACE):
 		jump_buffer_timer = JUMP_BUFFER_TIME
 	elif jump_buffer_timer > 0:
 		jump_buffer_timer -= delta
@@ -33,11 +33,13 @@ func _physics_process(delta: float) -> void:
 		jump_buffer_timer = 0.0
 
 	# 4. Left / Right Movement
-	var direction := Input.get_axis("move_left", "move_right")
-	if direction != 0:
-		velocity.x = direction * SPEED
+	var direction = Input.get_axis("move_left", "move_right")
+	
+	if direction:
+		velocity.x = direction*SPEED
 	else:
-		velocity.x = move_toward(velocity.x, 0, SPEED)
+		velocity.x = 0
+	
 
 	# 5. Animations
 	if not is_on_floor():
