@@ -30,7 +30,5 @@ func _physics_process(delta: float) -> void:
 	global_position.x = locked_x
 	
 	if target:
-		# Smoothly track the target's Y position
 		smooth_y = lerp(smooth_y, target.global_position.y, follow_speed * delta)
-		# Snap to whole pixels (or tile_size) to keep pixel art crisp
 		global_position.y = round(smooth_y)
