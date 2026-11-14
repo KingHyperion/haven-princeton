@@ -27,3 +27,5 @@ Coin Textures - [Source](https://brackeysgames.itch.io/brackeys-platformer-bundl
 Audio - [Source](pixabay.com)
 
 This game was designed using [Godot](https://godotengine.org/) for [Hackclub Haven: Princeton](https://haven.hackclub.com/princeton)
+
+AI was used for bug-fixing and concept clarification (clarifying concepts from Godot docs). No generated features remain in the final version.
