@@ -13,6 +13,8 @@ Q - Shoot/Recall Boomerang
 ## Gameplay
 Use your cursor to aim the boomerang (it fires in the direction of your cursor) towards coins. The boomerang will infinitely bounce, so pressing Q again will re-call it to you. Once all 3 coins on the level have been collected, the portal will unlock, allowing you to advance to the next layer.
 
+The last 2 levels are challenge levels, and have not been tested for if they are possible to complete, be warned.
+
 ## Team & Credits
 Anirudh - Storyboarding, Boomerang mechanics, Player mechanics, Team organizer
 
