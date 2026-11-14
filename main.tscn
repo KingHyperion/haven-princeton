@@ -17,6 +17,7 @@
 [ext_resource type="Texture2D" uid="uid://dgws0vhan2r6m" path="res://sprites/character/walk_right/frame_2.png" id="15_0odxb"]
 [ext_resource type="Texture2D" uid="uid://c2jn6ix8fcaun" path="res://sprites/character/walk_right/frame_3.png" id="16_lswn8"]
 [ext_resource type="Texture2D" uid="uid://c6avwn1fcceb5" path="res://sprites/character/walk_right/frame_4.png" id="17_a6jrf"]
+[ext_resource type="Texture2D" uid="uid://ct1wwkjjts7j3" path="res://sprites/assets/boomerang.png" id="18_074og"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_yaehf"]
 texture = ExtResource("1_wtcfe")
@@ -144,3 +145,9 @@ position = Vector2(-131, 56)
 sprite_frames = SubResource("SpriteFrames_xuqvo")
 animation = &"idle"
 metadata/_yhde_id = "7dba18b1-a1ae-4cd5-bbe2-8907c299585d"
+
+[node name="Boomerang" type="Sprite2D" parent="." unique_id=963300855]
+position = Vector2(-118, 58)
+scale = Vector2(0.75, 0.75)
+texture = ExtResource("18_074og")
+metadata/_yhde_id = "280c82e7-eb76-4fb1-b8ea-bd07af0fd16d"
