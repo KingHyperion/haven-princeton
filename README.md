@@ -3,8 +3,11 @@ A simple platformer set in a bounce house, where your goal is to collect coins w
 
 ## Controls
 W - Jump
+
 A - Walk Left
+
 D - Walk Right
+
 Q - Shoot/Recall Boomerang
 
 ## Gameplay
