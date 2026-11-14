@@ -10,3 +10,5 @@ Godot game for Hack Club Haven: Princeton
 - If boomerang hits player, they restart level
     - Unless they press 'c' at the exact moment, then they can catch it.
     - 'q' is to throw/resummon boomerang
+
+# Bounchouse Palooza
