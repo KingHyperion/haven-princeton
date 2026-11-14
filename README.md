@@ -1,6 +1,8 @@
 # Bounce House Palooza
 A simple platformer set in a bounce house, where your goal is to collect coins with your boomerang to open a portal to the next layer.
 
+https://kinghyperion-ani-k.itch.io/bounce
+
 ## Controls
 W - Jump
 
