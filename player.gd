@@ -1,5 +1,6 @@
 class_name Player
 extends CharacterBody2D
+var coins: int = 0
 
 const SPEED = 130.0
 const JUMP_VELOCITY = -400.0

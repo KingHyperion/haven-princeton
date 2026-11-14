@@ -1,20 +1,9 @@
 [gd_scene format=3 uid="uid://dq307xjiy1hj5"]
 
-[ext_resource type="Texture2D" uid="uid://dpl4ysbhm5uum" path="res://sprites/ball.png" id="1_a85iw"]
-[ext_resource type="Script" uid="uid://bshfxh8tn4ijl" path="res://projectile.gd" id="1_qxf0c"]
-
-[sub_resource type="CircleShape2D" id="CircleShape2D_yqckp"]
-radius = 4.472136
-metadata/_yhde_id = "a01401e0-2209-4c54-b3e8-9a2123dca3f6"
+[ext_resource type="Texture2D" uid="uid://dpl4ysbhm5uum" path="res://ball.png" id="1_a85iw"]
 
 [node name="Projectile" type="CharacterBody2D" unique_id=1108657676]
-script = ExtResource("1_qxf0c")
-metadata/_yhde_id = "4c445f53-da42-5910-b566-fa913a55b74f"
 
-[node name="Ball" type="Sprite2D" parent="." unique_id=1105552031]
+[node name="Ball" type="Sprite2D" parent="." unique_id=980534416]
+position = Vector2(439, 391)
 texture = ExtResource("1_a85iw")
-metadata/_yhde_id = "dd7ffe80-d7cc-53f7-acd8-09cbc4903ead"
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=374686055]
-shape = SubResource("CircleShape2D_yqckp")
-metadata/_yhde_id = "399144d2-4c9e-44ec-ae4c-a5c7cf7ae269"
