@@ -15,7 +15,9 @@ Use your cursor to aim the boomerang (it fires in the direction of your cursor) 
 
 ## Team & Credits
 Anirudh - Storyboarding, Boomerang mechanics, Player mechanics, Team organizer
+
 David - Coin mechanics, Level design, Audio design, Player mechanics
+
 Deva - Art, Portal mechanics, Coin mechanics
 
 Portal textures - [Source](https://pixelnauta.itch.io/pixel-dimensional-portal-32x32)
