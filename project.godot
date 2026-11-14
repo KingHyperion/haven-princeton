@@ -11,8 +11,20 @@ config_version=5
 [application]
 
 config/name="Haven Princeton"
+run/main_scene="uid://slvy64rlotqe"
 config/features=PackedStringArray("4.7")
+
+[display]
+
+window/size/viewport_width=256
+window/size/viewport_height=144
+window/stretch/mode="viewport"
+window/stretch/scale_mode="integer"
 
 [editor_plugins]
 
 enabled=PackedStringArray("res://addons/yhde/plugin.cfg")
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=0

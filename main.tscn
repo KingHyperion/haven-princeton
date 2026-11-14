@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://4sw2ghs24c5a"]
+
+[ext_resource type="Script" uid="uid://cl7sgc6d4ro7j" path="res://Canon.gd" id="1_0xm2m"]
+[ext_resource type="Texture2D" uid="uid://dt8ntmvq1h88l" path="res://canon.png" id="1_ig7tw"]
+
+[node name="ani_sandbox" type="Node2D" unique_id=2008981514]
+metadata/_yhde_id = "d9c6b03f-512b-5218-8d26-09ecf6cc780a"
+
+[node name="Canon" type="Node2D" parent="." unique_id=548255211]
+script = ExtResource("1_0xm2m")
+metadata/_yhde_id = "ba084fcd-fc63-4df0-b968-944cf6558631"
+
+[node name="Canon" type="Sprite2D" parent="Canon" unique_id=1726262014]
+texture = ExtResource("1_ig7tw")
+metadata/_yhde_id = "9cf87f69-477f-4c87-b237-eadb53caf9ae"
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=73831850]
+metadata/_yhde_id = "2044443a-719b-4b0e-969b-6e8b6c366442"
