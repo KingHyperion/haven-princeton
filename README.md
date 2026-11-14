@@ -7,3 +7,5 @@ Godot game for Hack Club Haven: Princeton
 - 5 levels
 - Trickshots
 - If boomerang hits player, they restart level
+    - Unless they press 'c' at the exact moment, then they can catch it.
+    - 'q' is to throw/resummon boomerang
