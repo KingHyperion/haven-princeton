@@ -11,6 +11,8 @@ func _ready() -> void:
 func _on_body_entered(body: Node2D) -> void:
 	if body is Player and coins > 3:
 		print("Player contacted the sprite!")
+		body.global_position = Vector2(325, -150)
+		body.velocity = Vector2.ZERO
+		
 	elif body is Player and coins <= 3:
 		print("More coins needed")
-		body.teleport(destination.global_position)

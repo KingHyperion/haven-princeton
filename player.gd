@@ -20,9 +20,6 @@ var jump_buffer_timer: float = 0.0
 var active_boomerang: CharacterBody2D = null
 var q_was_pressed: bool = false
 
-func teleport(target_position: Vector2) -> void:
-	global_position = target_position
-	velocity = Vector2.ZERO # Optional: stops the player from sliding after arriving
 	
 func _physics_process(delta: float) -> void:
 	if not is_on_floor():
@@ -82,8 +79,6 @@ func get_player_center() -> Vector2:
 func handle_boomerang() -> void:
 	if boomerang_scene == null:
 		return
-
-	# 1. Press Q once: Spawn at Player's CollisionShape2D and aim at cursor
 	if active_boomerang == null:
 		var start_pos = get_player_center()
 		var mouse_pos = get_global_mouse_position()
@@ -96,11 +91,9 @@ func handle_boomerang() -> void:
 		active_boomerang.global_position = start_pos
 		active_boomerang.launch(self, aim_dir)
 
-	# 2. Press Q again while outbound: Recall early
 	elif not active_boomerang.is_returning:
 		active_boomerang.force_return()
 
-	# 3. Press Q a third time while returning: Instant resummon/reset
 	else:
 		active_boomerang.instant_resummon()
 		active_boomerang = null

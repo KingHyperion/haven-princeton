@@ -1,14 +1,22 @@
-# haven-princeton
-Godot game for Hack Club Haven: Princeton
+# Bounce House Palooza
+A simple platformer set in a bounce house, where your goal is to collect coins with your boomerang to open a portal to the next layer.
 
-## Ideas
-- Bouncy house platformer
-- player has a boomerang that bounces off of walls, you have to collect token by hitting them with the boomerang to advance to next level
-    - Throws:Coins ratio as a measure of skill
-- 5 levels
-- Trickshots
-- If boomerang hits player, they restart level
-    - Unless they press 'c' at the exact moment, then they can catch it.
-    - 'q' is to throw/resummon boomerang
+## Controls
+W - Jump
+A - Walk Left
+D - Walk Right
+Q - Shoot/Recall Boomerang
 
-# Bounchouse Palooza
+## Gameplay
+Use your cursor to aim the boomerang (it fires in the direction of your cursor) towards coins. The boomerang will infinitely bounce, so pressing Q again will re-call it to you. Once all 3 coins on the level have been collected, the portal will unlock, allowing you to advance to the next layer.
+
+## Team & Credits
+Anirudh - Storyboarding, Boomerang mechanics, Player mechanics, Team organizer
+David - Coin mechanics, Level design, Audio design, Player mechanics
+Deva - Art, Portal mechanics, Coin mechanics
+
+Portal textures - [Source](https://pixelnauta.itch.io/pixel-dimensional-portal-32x32)
+Coin Textures - [Source](https://brackeysgames.itch.io/brackeys-platformer-bundle?download)
+Audio - [Source](pixabay.com)
+
+This game was designed using [Godot](https://godotengine.org/) for [Hackclub Haven: Princeton](https://haven.hackclub.com/princeton)

@@ -1,3 +1,4 @@
+class_name Boomrang
 extends CharacterBody2D
 
 @export var speed: float = 300.0
@@ -28,14 +29,12 @@ func _physics_process(delta: float) -> void:
 		animated_sprite.rotation += 20.0 * delta
 
 	if not is_returning:
-		# 1. Keep flying and bouncing off blocks until the player presses Q
 		var step = direction * speed * delta
 		var collision = move_and_collide(step)
 
 		if collision:
 			direction = direction.bounce(collision.get_normal()).normalized()
 	else:
-		# 2. Only enters this phase when the player manually presses Q to recall
 		return_timer += delta
 		if return_timer >= max_return_time or not is_instance_valid(player):
 			instant_resummon()
@@ -51,7 +50,7 @@ func _physics_process(delta: float) -> void:
 
 func force_return() -> void:
 	is_returning = true
-	collision_mask = 0 # Allows recalled boomerang to pass through blocks back to player
+	collision_mask = 0
 
 func catch_boomerang() -> void:
 	if is_instance_valid(player):
