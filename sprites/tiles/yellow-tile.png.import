@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://1j1ny8dwd2lv"
-path="res://.godot/imported/Front_pose.png-c2674928f2d3b10b512e771c07fca047.ctex"
+uid="uid://8g10y4ao2njw"
+path="res://.godot/imported/yellow-tile.png-c229c7b3725cc623b73d4408f0222742.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/character/Front_pose.png"
-dest_files=["res://.godot/imported/Front_pose.png-c2674928f2d3b10b512e771c07fca047.ctex"]
+source_file="res://sprites/tiles/yellow-tile.png"
+dest_files=["res://.godot/imported/yellow-tile.png-c229c7b3725cc623b73d4408f0222742.ctex"]
 
 [params]
 

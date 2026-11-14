@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://8g10y4ao2njw"
-path="res://.godot/imported/yellow-tile.png-1cb4175eef0c4d4fde7018ce7f09ad16.ctex"
+uid="uid://dbgt5g135sbs6"
+path="res://.godot/imported/frame_2.png-709d3c71821248a5070ff18702f42016.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/yellow-tile.png"
-dest_files=["res://.godot/imported/yellow-tile.png-1cb4175eef0c4d4fde7018ce7f09ad16.ctex"]
+source_file="res://sprites/character/idle/frame_2.png"
+dest_files=["res://.godot/imported/frame_2.png-709d3c71821248a5070ff18702f42016.ctex"]
 
 [params]
 

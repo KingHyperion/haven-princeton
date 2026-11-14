@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dhgpx1v6qjnky"
-path="res://.godot/imported/green-tile.png-af12e4cc3f96ad76111054d409845eaa.ctex"
+uid="uid://do4uf5w5b7vv3"
+path="res://.godot/imported/frame_3.png-6150b7438c6fe3b93b1df6ce52f173ae.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/green-tile.png"
-dest_files=["res://.godot/imported/green-tile.png-af12e4cc3f96ad76111054d409845eaa.ctex"]
+source_file="res://sprites/character/walk_left/frame_3.png"
+dest_files=["res://.godot/imported/frame_3.png-6150b7438c6fe3b93b1df6ce52f173ae.ctex"]
 
 [params]
 

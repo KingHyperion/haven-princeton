@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://esocp1uii154"
-path="res://.godot/imported/red-tile.png-2445740019f1b58ca43146d00bc1829d.ctex"
+uid="uid://bwev5gf6b7683"
+path="res://.godot/imported/frame_1.png-8514d3dc08db5f1883d91b8b3e1427a9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/red-tile.png"
-dest_files=["res://.godot/imported/red-tile.png-2445740019f1b58ca43146d00bc1829d.ctex"]
+source_file="res://sprites/character/idle/frame_1.png"
+dest_files=["res://.godot/imported/frame_1.png-8514d3dc08db5f1883d91b8b3e1427a9.ctex"]
 
 [params]
 
