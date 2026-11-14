@@ -1,0 +1,45 @@
+[gd_scene format=3 uid="uid://bgrw0g4unqvjl"]
+
+[ext_resource type="Script" uid="uid://dny4kyin1n04x" path="res://boomerang.gd" id="1_41yrk"]
+[ext_resource type="Texture2D" uid="uid://b6uhg5n14hw1e" path="res://sprites/assets/boomerang/frame_1.png" id="2_wumx0"]
+[ext_resource type="Texture2D" uid="uid://4ls43n4bs6ph" path="res://sprites/assets/boomerang/frame_2.png" id="3_ni5xy"]
+[ext_resource type="Texture2D" uid="uid://4x030s4nrq5" path="res://sprites/assets/boomerang/frame_3.png" id="4_mf7yq"]
+[ext_resource type="Texture2D" uid="uid://pjd0hey5jkpt" path="res://sprites/assets/boomerang/frame_4.png" id="5_hfnhy"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_1u8w0"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_wumx0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_ni5xy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_mf7yq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_hfnhy")
+}],
+"loop": 1,
+"name": &"spin",
+"speed": 12.0
+}]
+metadata/_yhde_id = "e9dc47fe-d661-4033-bc7f-adb23e444ee4"
+
+[node name="Boomerang" type="CharacterBody2D" unique_id=2115184449]
+rotation = 3.1415925
+script = ExtResource("1_41yrk")
+metadata/_yhde_id = "5ba64823-597e-42fb-9f29-55ad1919f214"
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1117039380]
+position = Vector2(1, 0)
+scale = Vector2(0.5, 0.5)
+sprite_frames = SubResource("SpriteFrames_1u8w0")
+animation = &"spin"
+metadata/_yhde_id = "bddca958-bec8-4b95-b224-a9323f68bbac"
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." unique_id=635945053]
+scale = Vector2(0.5, 0.5)
+polygon = PackedVector2Array(6, 9.0597484e-07, -1.0000012, 8, -3.0000012, 7.9999995, -4.000001, 5.9999995, 0.9999998, 1.0000001, 1.0000001, -0.9999998, -3.999999, -6.0000005, -2.9999988, -8, -0.9999988, -8)
+metadata/_yhde_id = "e531f170-567b-4186-9f60-5c366d3cccc9"
